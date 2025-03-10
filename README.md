@@ -30,7 +30,7 @@ zkBuddy is a private AI chatbot that integrates emotion recognition and zero-kno
 1. Clone the repository and navigate into it:
 
    ```bash
-   git clone https://github.com/yourusername/zkBuddy.git
+   git clone https://github.com/ardor05/zkBuddy.git
    cd zkBuddy
    ```
 

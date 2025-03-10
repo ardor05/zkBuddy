@@ -1,4 +1,6 @@
-<img src="https://github.com/user-attachments/assets/c0dc63de-5907-4f18-8c0c-c2766ca683af" alt="logo" width="200">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c0dc63de-5907-4f18-8c0c-c2766ca683af" alt="logo" width="300">
+</div>
 
 # zkBuddy
 

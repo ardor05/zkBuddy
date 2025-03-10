@@ -99,16 +99,19 @@ zkBuddy/
 └── best.pt              # YOLO model for emotion detection
 ```
 
-## Development
+## Key Technologies
 
-- **Rust Code:**  
-  The Rust code in `src/lib.rs` uses Polyhedra’s Expander Compiler to define and compile a simple circuit (that asserts x equals y). It simulates GKR proof generation and exposes a function (`run_zkbuddy`) to Python via PyO3.
-  
-- **Python Code:**  
-  The Python code in `main.py` provides the Streamlit user interface, integrates Gemini’s Generative AI and YOLO for emotion recognition, and calls the Rust function to simulate the zero-knowledge proof.
+- **Expander Compiler Collection by Polyhedra:**  
+  The heart of zkBuddy is built on Polyhedra’s Expander Compiler Collection. The Rust code in `src/lib.rs` leverages this technology to define and compile cryptographic circuits (for example, a simple circuit that asserts x equals y). It further simulates GKR proof generation and exposes a function (`run_zkbuddy`) to Python via PyO3, enabling zero-knowledge proof capabilities without revealing sensitive data.
 
-- **Testing:**  
-  Run `cargo test` to execute tests included in the Rust code.
+- **Gemini AI:**  
+  zkBuddy integrates Gemini’s Generative AI to produce dynamic and contextually rich chat responses. This technology drives the conversational aspect of the chatbot, ensuring that users receive intelligent and relevant replies.
+
+- **YOLO (You Only Look Once):**  
+  For emotion recognition, zkBuddy employs a YOLO model to analyze uploaded images. This enables the system to detect and interpret user emotions, which are then used to adjust the chatbot’s responses accordingly.
+
+- **Python & Streamlit:**  
+  The Python code in `main.py` provides a user-friendly Streamlit-based interface that brings together the power of Gemini AI, YOLO for emotion detection, and the underlying Rust-based cryptographic proof system.
 
 ## Contributing
 

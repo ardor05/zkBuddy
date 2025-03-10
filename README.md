@@ -1,4 +1,4 @@
-![logo](https://github.com/user-attachments/assets/c0dc63de-5907-4f18-8c0c-c2766ca683af)!
+![logo](https://github.com/user-attachments/assets/c0dc63de-5907-4f18-8c0c-c2766ca683af)
 
 # zkBuddy
 

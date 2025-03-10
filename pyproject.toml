@@ -1,0 +1,20 @@
+[build-system]
+requires = ["maturin>=0.12"]
+build-backend = "maturin"
+
+[project]
+name = "zkBuddy"
+version = "0.1.0"
+requires-python = ">=3.8"
+Classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[dependencies] 
+maturin = "1.4.0"
+rustimport = "1.4.0"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]

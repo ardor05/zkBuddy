@@ -1,0 +1,24 @@
+[package]
+name = "zk_buddy"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 3
+
+[dependencies]
+pyo3 = { version = "0.21", features = ["extension-module"] }
+rand = "0.8.5"
+clap = { version = "4.5.30", features = ["derive"] }
+halo2curves = { git = "https://github.com/PolyhedraZK/halo2curves", default-features = false, features = ["bits"] }
+arith = { git = "https://github.com/PolyhedraZK/Expander", branch = "main" }
+gkr_field_config = { git = "https://github.com/PolyhedraZK/Expander", branch = "main" }
+expander_circuit = { git = "https://github.com/PolyhedraZK/Expander", branch = "main", package = "circuit" }
+gkr = { git = "https://github.com/PolyhedraZK/Expander", branch = "main" }
+mersenne31 = { git = "https://github.com/PolyhedraZK/Expander", branch = "main" }
+expander_transcript = { git = "https://github.com/PolyhedraZK/Expander", branch = "main", package = "transcript" }
+expander_compiler = { git = "https://github.com/PolyhedraZK/ExpanderCompilerCollection", branch = "master" }
+
+[lib]
+crate-type = ["cdylib"]
+

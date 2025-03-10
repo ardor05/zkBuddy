@@ -1,4 +1,5 @@
-![logo](https://github.com/user-attachments/assets/c0dc63de-5907-4f18-8c0c-c2766ca683af)![logo](https://github.com/user-attachments/assets/dd22cf57-c23f-4a7d-b735-1ba115cabbab)
+![logo](https://github.com/user-attachments/assets/c0dc63de-5907-4f18-8c0c-c2766ca683af)!
+
 # zkBuddy
 
 zkBuddy is a private AI chatbot that integrates emotion recognition and zero-knowledge proofs (zkML) into a single Streamlit application. It uses Gemini's Generative AI to generate chat responses, YOLO to detect user emotions from images, and a Rust module (built with PyO3 and maturin) to compile cryptographic circuits and simulate GKR-based proofs. This approach ensures that sensitive computations are verified in zero-knowledge without exposing the underlying data.
@@ -75,7 +76,7 @@ zkBuddy is a private AI chatbot that integrates emotion recognition and zero-kno
 With your virtual environment activated, run:
 
 ```bash
-streamlit run main.py
+python -m streamlit run .\main.py
 ```
 
 - **Chat Interface:** Type a message to receive a response from Gemini.
@@ -111,10 +112,7 @@ zkBuddy/
 
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
-## License
+## Disclaimer
 
-This project is licensed under the MIT License.
+This project have been developed for Explore Expander Bootcamp by Polyhedra & organized by Encode Club. Thank you to all people that contributing to zkBuddy.
 
----
-
-Feel free to adjust any sections as needed. Let me know if you need further modifications or additional sections!

@@ -24,3 +24,12 @@ name = "zkBuddy"
 version = "0.1.0"
 description = "zkBuddy: A private AI chatbot with emotion recognition and zkML proofs."
 package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-generativeai = "^0.3.0"
+streamlit = "^1.20.0"
+ultralytics = "^8.0.0"
+Pillow = "^9.0.0"
+numpy = "^1.23.0"
+
